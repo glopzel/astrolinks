@@ -1,0 +1,53 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+
+<Layout title="ALZ Links">
+	<main class="flex flex-col items-center justify-center text-gray-900">
+		<div class="flex justify-center mt-12 sm:w-1/3">
+			<img class="w-1/5" id="alien" src="https://cdn.glitch.global/8ea56d18-32a8-4f19-802d-29d8cb17a5b7/doodle-57.svg?v=1658029266802"  alt="green alien in a grey spaceship">
+		</div>
+		
+		
+		<h1 class="mt-2 font-bold">Angela Lopez</h1>
+		<h2 class="font-bold">Software Developer</h2>
+		<h3>MongoDB, Express, React, Node Stack</h3>
+
+		<div class="mt-10 w-screen sm:w-3/5">
+			<ul role="list" class="link-card-grid px-4 sm:px-10">
+
+				<Card
+					href="https://alz.netlify.app/"
+					title="Portfolio Site"
+				/>
+	
+				<Card
+					href="https://github.com/glopzel"
+					title="Visit my Github"
+				/>
+				<Card
+					href="https://codepen.io/glopzel"
+					title="Check Out My Codepen Pens"
+				/>
+				<Card
+					href="https://www.instagram.com/glopzel/"
+					title="Follow My Instagram"
+				/>
+				<Card
+					href="https://twitter.com/glopzel"
+					title="Twitter"
+				/>
+			</ul>
+		</div>
+		
+	</main>
+</Layout>
+
+<style>
+
+	h1 {
+		font-size: clamp(1.2rem, 0.7vw + 1.2rem, 1.5rem);
+	}
+
+</style>
