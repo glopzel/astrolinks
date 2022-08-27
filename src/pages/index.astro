@@ -6,7 +6,7 @@ import Card from '../components/Card.astro';
 <Layout title="ALZ Links">
 	<main class="flex flex-col items-center justify-center text-gray-900">
 		<div class="flex justify-center mt-12 sm:w-1/3">
-			<img class="w-1/5" id="alien" src="https://cdn.glitch.global/8ea56d18-32a8-4f19-802d-29d8cb17a5b7/doodle-57.svg?v=1658029266802"  alt="green alien in a grey spaceship">
+			<img id="alien" src="https://cdn.glitch.global/8ea56d18-32a8-4f19-802d-29d8cb17a5b7/doodle-57.svg?v=1658029266802"  alt="green alien in a grey spaceship">
 		</div>
 		
 		
@@ -45,6 +45,10 @@ import Card from '../components/Card.astro';
 </Layout>
 
 <style>
+
+	img {
+		width: 6.5em;
+	}
 
 	h1 {
 		font-size: clamp(1.2rem, 0.7vw + 1.2rem, 1.5rem);
